@@ -1,0 +1,110 @@
+.checkout {
+    color: rgb(60, 47, 47);
+}
+
+/* SUMMARY CART */
+
+.checkout-item {
+    border-bottom: 0.5px solid #f8cfd2;
+    padding: 10px;
+}
+
+.checkout-items {
+    max-height: 10rem;
+    overflow: scroll;
+}
+
+.total {
+    float: right;
+    margin: 25px;
+    font-weight: bold;
+
+}
+
+.total span {
+    padding-right: 10px;
+}
+
+/* FORM */
+.form {
+    margin-top: 40px;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.control label {
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.input input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    height: 30px;
+    max-width: 100%;
+}
+
+.address {
+    width: 20rem;
+    height: 30px;
+}
+
+.control span {
+    margin-left: 10px;
+    color: #741018;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(129, 101, 101);
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: rgb(129, 101, 101);
+    border-color: rgb(129, 101, 101);
+    color: white;
+}
+
+.actions .button {
+    background-color: rgb(129, 101, 101);
+    color: white;
+
+}
+
+.actions .button:hover {
+    background-color: white;
+    color: rgb(60, 47, 47);
+}
+
+
+.invalid label {
+    color: #ca3e51;
+}
+
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}

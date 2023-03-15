@@ -1,0 +1,120 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+    z-index: 10;
+}
+
+.logo {
+    width: 520px;
+    height: 80px;
+}
+
+.main-image {
+    width: 100vw;
+    height: 25rem;
+    background-image: url('../../images/roses.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.main-page {
+    position: relative;
+}
+
+.mainCard {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainCard p {
+    text-align: center;
+}
+
+.mainCard h4 {
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(to right, #fadee0, #e43946, #650e15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 768px) {
+    /* .mainCard {
+        top: 80%;
+        width: 40rem;
+        left: calc(50% - 20rem);
+        transform: translate(-50%, -50%);
+
+    } */
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .mainCard {
+        top: 70%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .mainCard h4 {
+        font-size: 15px;
+    }
+
+    .mainCard p {
+        font-size: 10px;
+    }
+
+    .main-image {
+        width: 100vw;
+        overflow: none;
+    }
+
+    .header {
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .mainCard {
+        top: 70%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .header {
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo {
+        width: 120px;
+        height: 60px;
+    }
+}

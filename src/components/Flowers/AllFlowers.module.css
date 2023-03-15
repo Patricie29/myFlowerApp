@@ -1,0 +1,40 @@
+.all-flowers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+}
+
+
+.menu {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.filter {
+    flex: 0 0 auto;
+}
+
+.flowers {
+    flex: 1 1 auto;
+}
+
+
+
+@media screen and (max-width: 540px) {
+
+    .all-flowers {
+        margin: 1rem 0;
+    }
+
+    .filter {
+        display: ;
+    }
+
+    .menu {
+        display: block;
+    }
+}

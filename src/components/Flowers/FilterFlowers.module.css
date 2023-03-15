@@ -1,0 +1,91 @@
+.filterCard {
+    background-color: #931721;
+    color: white;
+    text-align: center;
+    height: auto;
+    width: 150px;
+    margin-left: 1rem;
+    /* margin: 40px auto; */
+    margin-top: 85px;
+    margin-bottom: 1rem;
+    position: sticky;
+}
+
+
+.filterCard label {
+    padding: 10px;
+    display: block;
+}
+
+.button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #fdcccf;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10%;
+    /* color: rgb(129, 101, 101); */
+    color: #931721;
+    padding: 6px 8px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #931721;
+    color: #fdcccf;
+
+}
+
+.error {
+    background-color: #931721;
+    color: #fdcccf;
+    padding: 1px;
+    width: 150px;
+    margin-left: 1rem;
+    text-align: center;
+    border-radius: 14px;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .filterCard {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .filterCard label {
+        padding: 5px;
+        display: inline;
+    }
+
+    .button {
+        margin-right: 5px;
+    }
+
+    .error {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .filterCard {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .filterCard label {
+        padding: 5px;
+        display: inline;
+    }
+
+    .button {
+        margin-right: 5px;
+    }
+
+    .error {
+        display: none;
+    }
+}
